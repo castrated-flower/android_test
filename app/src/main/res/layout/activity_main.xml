@@ -7,14 +7,26 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="175dp"
+        android:layout_marginTop="172dp"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_2" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="636dp"
+        android:text="70 М Reviews"
+        android:textColor="#A8ADB7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -50,19 +62,18 @@
 
 
     <ImageView
-        android:id="@+id/imageView10"
+        android:id="@+id/imageView15"
         android:layout_width="375dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="380dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView12"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/img"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-348dp" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="375dp"
         android:layout_height="210dp"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="248dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_6" />
@@ -110,9 +121,9 @@
         android:layout_width="12dp"
         android:layout_height="12dp"
         android:layout_marginStart="141dp"
-        android:layout_marginTop="687dp"
+        android:layout_marginTop="338dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/img_7" />
 
     <ImageView
@@ -160,14 +171,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="226dp"
-        android:layout_marginTop="685dp"
-        android:layout_marginEnd="117dp"
+        android:layout_marginTop="334dp"
         android:text="70 М"
         android:textColor="#45454D"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView14"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView10" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -180,27 +188,229 @@
         app:srcCompat="@drawable/img_1" />
 
     <ImageView
-        android:id="@+id/imageView21"
-        android:layout_width="549dp"
-        android:layout_height="172dp"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/img_4"
-        tools:layout_editor_absoluteX="-22dp" />
-
-    <ImageView
         android:id="@+id/imageView22"
         android:layout_width="53dp"
         android:layout_height="22dp"
         app:srcCompat="@drawable/img_8"
         tools:layout_editor_absoluteX="24dp"
-        tools:layout_editor_absoluteY="423dp" />
+        tools:layout_editor_absoluteY="384dp" />
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="106dp"
-        android:layout_height="32dp"
+        android:layout_width="93dp"
+        android:layout_height="22dp"
         app:srcCompat="@drawable/img_9"
-        tools:layout_editor_absoluteX="107dp"
-        tools:layout_editor_absoluteY="413dp" />
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="384dp" />
 
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="73dp"
+        android:layout_height="22dp"
+        app:srcCompat="@drawable/img_10"
+        tools:layout_editor_absoluteX="205dp"
+        tools:layout_editor_absoluteY="384dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="sans-serif"
+        android:text="MOBA"
+        android:textColor="#41A0E7"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="sans-serif"
+        android:text="MULTIPLAYER"
+        android:textColor="#41A0E7"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="212dp"
+        android:fontFamily="sans-serif"
+        android:text="STRATEGY"
+        android:textColor="#41A0E7"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="260dp"
+        android:fontFamily="sans-serif"
+        android:text="Dota 2 is a multiplayer online battle arena (MOBA) game\n
+which has two teams of five players compete to collectively\n
+destroy a large structure defended by the opposing team\n
+known as the 'Ancient', whilst defending their own."
+        android:textColor="#B2EEF2FB"
+        android:textSize="11sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="340dp"
+        android:fontFamily="sans-serif"
+        android:text="Review & Ratings"
+        android:textColor="#EEF2FB"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="380dp"
+        android:fontFamily="sans-serif"
+        android:text="4.9"
+        android:textColor="#EEF2FB"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="432dp"
+        android:fontFamily="sans-serif"
+        android:text="Auguste Conte"
+        android:textColor="#EEF2FB"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="588dp"
+        android:fontFamily="sans-serif"
+        android:text="Jong Marcelina"
+        android:textColor="#EEF2FB"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="556dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_7" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="556dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_7" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="556dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_7" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="556dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_7" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="556dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_7" />
+
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="576dp"
+        android:text="70 М Reviews"
+        android:textColor="#A8ADB7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="500dp"
+        android:fontFamily="sans-serif"
+        android:text="'Once you start to learn its secrets, there's a wild and
+exciting variety of play here that's unmatched, even by
+its peers.'"
+        android:textColor="#B2EEF2FB"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="317dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="648dp"
+        android:fontFamily="sans-serif"
+        android:text="'Once you start to learn its secrets, there's a wild and
+exciting variety of play here that's unmatched, even by
+its peers.'"
+        android:textColor="#B2EEF2FB"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView11" />
+</
 </androidx.constraintlayout.widget.ConstraintLayout>
